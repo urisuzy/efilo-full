@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+header {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#tipe {
+    overflow: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#tipe-a {
+    flex-basis: 33.333333333%;
+}
+
+#tipe-b {
+    flex-basis: 33.333333333%;
+}
+
+#tipe-c {
+    flex-basis: 33.333333333%;
+}
+
+.tipe-title {
+    text-align: center;
+}
+
+.tipe-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tipe-desc {
+    margin-left: 30px;
+}
+
+.tipe-desc p{
+    line-height: 1px;
+}
+
+#content {
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+}
+
+#content p,li {
+    font-size: 1.2vw;
+    line-height: 40px;
+}
+
+header {
+    background-image: url("../assets/bg.png");
+}
+
+body {
+    background-image: url("../assets/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#denah {
+    margin: 20px;
+    text-align: center;
+}
+
+.fasilitas-container {
+    margin-top: 250px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+}
+
+.fasilitas-container #fasilitas-1{
+    overflow: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.fasilitas-container #fasilitas-2{
+    overflow: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.fasilitas-box {
+    flex-basis: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+        font-size: 14px;
+    }
+}
+
+#contact {
+    overflow: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    text-align: center;
+    margin: 0 auto;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-child {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.box-child #waimage {
+    float: right;
+    margin-right: 5px;
+}
+
+.box-child .nomer {
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
