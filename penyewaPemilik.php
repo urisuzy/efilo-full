@@ -15,6 +15,9 @@ $response = requestListUsers();
                     </div>
                 </div>
                 <div class="row">
+                    <div>
+                    <a href="tambahdatapenyewapemilik.php" class="btn btn-outline-dark mb-3" name ="tambah" style="background-color:#5C8E9E; width:200px; height: 30px; float: right; border-radius: 12px"><i class="fa fa-plus-circle" style="color: #FFFFFF" title="tambah"> Tambah Penyewa</i></a>
+                    </div>
                     <div class="col-md-12">
                         <div class="table-responsive">
                             <table class="contact-table table table-curved">
