@@ -73,3 +73,9 @@ function requestListReports()
     global $baseUrl;
     return json_decode(curl($baseUrl . '/api/reports', 'GET'));
 }
+
+function requestAddUser($data)
+{
+    global $baseUrl;
+    return json_decode(curl($baseUrl . '/api/admin/user', 'POST', $data));
+}
