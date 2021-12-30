@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-6 text-center mb-3 mt-5">
-            <h2 class="heading-section">Edit Data Penyewa</h2>
+            <h2 class="heading-section">Tambah Penyewa</h2>
           </div>
         </div>
         <div class="col-md-12">
